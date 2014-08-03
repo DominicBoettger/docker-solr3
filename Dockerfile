@@ -1,5 +1,6 @@
 FROM phusion/baseimage
 
+RUN apt-get update
 RUN apt-get install -y wget default-jre-headless
 
 ENV SOLR_VERSION 3.6.2
